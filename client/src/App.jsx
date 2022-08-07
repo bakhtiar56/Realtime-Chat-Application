@@ -5,7 +5,7 @@ import {useState} from "react"
 import io from "socket.io-client"
 import Chat from "./pages/chat"
 
-const socket=io("http://localhost:4000")
+const socket=io("https://realtime-chat-app-56.herokuapp.com/")
 
 
 
